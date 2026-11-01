@@ -11,6 +11,7 @@
   <meta property="og:description" content="Электронная защита товаров для магазинов: RF и AM антенны, датчики, этикетки и кассовое оборудование. Заказы из всех регионов Казахстана.">
   <meta property="og:locale" content="ru_RU">
   <meta property="og:site_name" content="SecureGuard.kz">
+  <link rel="icon" href="https://secureguard.kz/favicon.ico">
   <title>SecureGuard.kz — антикражное оборудование для магазинов по Казахстану</title>
   <style>
     :root{--ink:#10253c;--muted:#567085;--line:#dbe7ee;--paper:#f6f9fb;--white:#fff;--navy:#0b1830;--deep:#10314a;--teal:#03aa99;--aqua:#dcfbf5;--shadow:0 18px 55px rgba(8,39,66,.08)}
@@ -91,15 +92,41 @@
     @media(max-width:850px){.hero-grid{grid-template-columns:1fr;padding-top:50px;padding-bottom:70px}.illustration{display:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.split{grid-template-columns:1fr;gap:25px}.cta-box{display:block}.cta-box .btn{margin-top:20px}}
     @media(max-width:570px){.container{padding:0 18px}.topbar .container{display:block;padding-top:17px;padding-bottom:13px}.brand{font-size:19px}nav{gap:14px;white-space:nowrap;overflow-x:auto;flex-wrap:nowrap;margin-top:12px;padding-bottom:6px}.hero-grid{padding-top:44px;padding-bottom:65px}.lead{font-size:16px}.keypoints{grid-template-columns:1fr;margin-top:-24px;gap:9px}.keypoint{padding:15px 18px}.cards,.technical{grid-template-columns:1fr}main section{padding-top:52px}.cta{padding-top:52px;padding-bottom:60px}.cta-box{padding:31px 24px}footer .container{display:block}footer .container span{display:block;margin-top:5px}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+
+
+    /* SecureGuard brand identity: logo and red/black palette */
+    :root{--navy:#17191d;--deep:#24262d;--teal:#d00023;--aqua:#fff0f1;--paper:#f8f9fa;--ink:#20252c;--muted:#606d7b;--line:#e5e7eb}
+    .topbar{background:#fff;color:#20252c;border-bottom:1px solid #ebedf0}
+    .topbar .container{min-height:88px}
+    .brand{color:#151515;font-size:clamp(18px,2vw,23px);gap:12px;letter-spacing:-.55px}
+    .brand em,.brand-guard{color:#d00023}
+    .brand-mark{display:grid;position:relative;place-items:center;width:67px;height:70px;flex-shrink:0;border:none;border-radius:0;background:#fff;color:#d00023;font-size:25px}
+    .brand-mark img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff}
+    nav a{color:#252b34;font-size:13px}
+    nav a:hover{color:#bb0022}
+    .hero{background:radial-gradient(ellipse 900px 420px at 92% 9%,rgba(220,26,58,.20),transparent 65%),linear-gradient(128deg,#181c23,#30313a 70%,#4e1722 100%)}
+    .eyebrow,h1 span{color:#ff7789}
+    .btn-primary{background:#d70930;color:#fff}
+    .btn-primary:hover{background:#b5072b;color:#fff}
+    .btn-outline{border-color:#b7a6ac}
+    .section-intro,.card .num,.keypoint strong{color:#a60020}
+    .card .num{background:#fff0f1}
+    .frequency,.tech-card .frequency{color:#a60020;background:#fff0f1}
+    .checklist li:before{color:#d70930}
+    .regions{background:linear-gradient(138deg,#1f2732,#59202c)}
+    .cta-box{background:#24262d}
+    footer{background:#191b22}
+    footer a{color:#ffb6c0}
+    @media(max-width:570px){.topbar .container{padding-top:10px;padding-bottom:12px}.brand-mark{width:57px;height:61px}nav{margin-top:6px}}
   </style>
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Organization","name":"SecureGuard.kz","url":"https://secureguard.kz","description":"Продажа и подбор антикражного оборудования для магазинов Казахстана: RF и AM системы, защитные датчики, этикетки, съёмники и деактиваторы.","areaServed":{"@type":"Country","name":"Казахстан"},"knowsAbout":["Антикражное оборудование","Радиочастотные системы RF 8,2 МГц","Акустомагнитные системы AM 58 кГц","Защитные датчики и этикетки"]}
+  {"@context":"https://schema.org","@type":"Organization","name":"SecureGuard.kz","url":"https://secureguard.kz","logo":"https://secureguard.kz/images/secureguard-logo.png","description":"Продажа и подбор антикражного оборудования для магазинов Казахстана: RF и AM системы, защитные датчики, этикетки, съёмники и деактиваторы.","areaServed":{"@type":"Country","name":"Казахстан"},"knowsAbout":["Антикражное оборудование","Радиочастотные системы RF 8,2 МГц","Акустомагнитные системы AM 58 кГц","Защитные датчики и этикетки"]}
   </script>
 </head>
 <body>
 <header class="topbar">
   <div class="container">
-    <a class="brand" href="#top" aria-label="SecureGuard.kz, на начало"><span class="brand-mark" aria-hidden="true">S</span>SecureGuard<em>.kz</em></a>
+    <a class="brand" href="#top" aria-label="SecureGuard.kz, на начало"><span class="brand-mark" aria-hidden="true">S<img src="https://secureguard.kz/images/secureguard-logo.png" alt="" loading="eager" onerror="this.remove()"></span><span class="brand-word">Secure<span class="brand-guard">Guard</span><em>.kz</em></span></a>
     <nav aria-label="Навигация по странице"><a href="#about">О компании</a><a href="#equipment">Оборудование</a><a href="#solutions">Решения</a><a href="#geography">По Казахстану</a><a href="#faq">Вопросы</a></nav>
   </div>
 </header>
