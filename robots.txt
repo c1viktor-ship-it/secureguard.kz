@@ -1,0 +1,35 @@
+# SecureGuard.kz informational project on GitHub Pages
+# Note: for project Pages the effective robots.txt is at the host root,
+# https://c1viktor-ship-it.github.io/robots.txt, not this subpath.
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# xAI/Grok has no officially documented crawler token; wildcard applies.
+Sitemap: https://c1viktor-ship-it.github.io/secureguard.kz/sitemap.xml
