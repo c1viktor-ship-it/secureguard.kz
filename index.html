@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#0b1830">
+  <meta name="description" content="SecureGuard.kz: антикражное оборудование для магазинов по всему Казахстану. RF- и AM-системы, защитные датчики, этикетки, съёмники, деактиваторы и подбор решений.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SecureGuard.kz — антикражное оборудование по Казахстану">
+  <meta property="og:description" content="Электронная защита товаров для магазинов: RF и AM антенны, датчики, этикетки и кассовое оборудование. Заказы из всех регионов Казахстана.">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="SecureGuard.kz">
+  <title>SecureGuard.kz — антикражное оборудование для магазинов по Казахстану</title>
+  <style>
+    :root{--ink:#10253c;--muted:#567085;--line:#dbe7ee;--paper:#f6f9fb;--white:#fff;--navy:#0b1830;--deep:#10314a;--teal:#03aa99;--aqua:#dcfbf5;--shadow:0 18px 55px rgba(8,39,66,.08)}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font:16px/1.72 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased}
+    a{color:#076d69;text-decoration-thickness:1px;text-underline-offset:3px}
+    a:hover{color:#005650}
+    a:focus-visible{outline:3px solid #f3b153;outline-offset:3px;border-radius:3px}
+    .container{max-width:1170px;margin:auto;padding:0 28px}
+    .topbar{background:var(--navy);color:#e2f5f4}
+    .topbar .container{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:inline-flex;align-items:center;gap:12px;font-size:20px;font-weight:800;letter-spacing:-.6px;color:#fff;text-decoration:none;white-space:nowrap}
+    .brand em{color:#31cbb8;font-style:normal}
+    .brand-mark{height:38px;width:38px;display:grid;place-items:center;border:2px solid #46dbca;border-radius:10px;color:#56e1d1;font-size:21px;line-height:1}
+    nav{display:flex;gap:22px;align-items:center;flex-wrap:wrap;font-size:13px;font-weight:700}
+    nav a{color:#daecec;text-decoration:none;white-space:nowrap}
+    nav a:hover{color:#7df6e5}
+    .hero{color:#fff;background:radial-gradient(ellipse 900px 420px at 90% 5%,rgba(22,203,181,.19),transparent 63%),linear-gradient(133deg,#0b1830 0%,#0f3048 70%,#0b4250 100%);overflow:hidden}
+    .hero-grid{min-height:480px;display:grid;grid-template-columns:minmax(0,1.4fr) minmax(260px,.8fr);align-items:center;gap:42px;padding-top:65px;padding-bottom:72px}
+    .eyebrow{font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#5fe6d5;margin:0 0 16px}
+    h1,h2,h3{line-height:1.19;letter-spacing:-.025em;margin:0}
+    h1{font-size:clamp(36px,4.7vw,59px);max-width:740px;letter-spacing:-.045em}
+    h1 span{color:#65ebd8}
+    .lead{font-size:18px;line-height:1.68;color:#d5e6e8;max-width:690px;margin:24px 0 28px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:46px;padding:11px 19px;border-radius:9px;font-weight:750;font-size:14px;text-decoration:none;transition:transform .15s,background .15s}
+    .btn:hover{transform:translateY(-1px)}
+    .btn-primary{background:#35d3c0;color:#06272e}
+    .btn-primary:hover{background:#6eeadb;color:#06272e}
+    .btn-outline{border:1px solid #87b4bc;color:#efffff}
+    .btn-outline:hover{background:rgba(255,255,255,.1);color:#fff}
+    .illustration{position:relative;min-height:335px;display:grid;place-items:center}
+    .glow{width:290px;height:290px;border:1px solid rgba(78,223,203,.27);border-radius:50%;position:absolute;box-shadow:0 0 0 36px rgba(68,226,208,.035),0 0 0 77px rgba(68,226,208,.025)}
+    .gate-set{display:flex;gap:87px;align-items:center;position:relative;z-index:1}
+    .gate{width:47px;height:215px;border-radius:20px 20px 6px 6px;border:5px solid #c9e6eb;background:linear-gradient(90deg,#97c5cb,#c6e6e6 52%,#4c9ca3);position:relative;box-shadow:9px 12px 20px rgba(0,0,0,.25)}
+    .gate:before{content:"";position:absolute;inset:13px 9px 32px;border:2px solid rgba(6,48,65,.46);border-radius:12px 12px 3px 3px}
+    .gate:after{content:"";position:absolute;width:60px;height:8px;left:-11px;bottom:-10px;border-radius:4px;background:#85c1c4}
+    .waves{position:absolute;border:2px dashed rgba(59,235,213,.47);border-radius:50%;width:150px;height:150px;left:50%;top:50%;transform:translate(-50%,-50%)}
+    .waves:after{content:"";position:absolute;inset:25px;border:2px dashed rgba(59,235,213,.3);border-radius:50%}
+    .keypoints{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:-33px;position:relative;z-index:3}
+    .keypoint{background:#fff;border:1px solid var(--line);border-radius:13px;padding:21px 23px;box-shadow:var(--shadow)}
+    .keypoint strong{display:block;font-size:20px;color:#0e4653;margin-bottom:3px}
+    .keypoint span{font-size:13px;color:var(--muted);display:block;line-height:1.5}
+    main section{padding:70px 0 0;scroll-margin-top:25px}
+    .section-intro{font-size:12px;font-weight:800;letter-spacing:1.9px;text-transform:uppercase;color:#087d77;margin:0 0 12px}
+    h2{font-size:clamp(28px,3vw,38px);margin:0 0 21px}
+    .prose{max-width:920px;color:#39566a}
+    .prose p{margin:0 0 17px}
+    .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:31px}
+    .card{border:1px solid var(--line);background:#fff;border-radius:14px;padding:24px 23px;box-shadow:0 8px 23px rgba(12,48,75,.035)}
+    .card .num{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:8px;background:var(--aqua);font-size:13px;font-weight:800;color:#076e66;margin-bottom:16px}
+    h3{font-size:19px;margin:0 0 11px}
+    .card p{font-size:14px;line-height:1.68;color:#4c6476;margin:0}
+    .technical{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:27px}
+    .tech-card{padding:27px 29px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+    .tech-card .frequency{display:inline-block;background:#e9f7f5;border-radius:5px;color:#087971;padding:5px 9px;font-size:13px;font-weight:800;margin-bottom:15px}
+    .tech-card p{margin:0;color:#4c6476;font-size:15px}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+    .checklist{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+    .checklist li{background:#fff;border:1px solid var(--line);padding:14px 16px;border-radius:10px;color:#3e5b6b}
+    .checklist li:before{content:"✓";font-weight:900;color:#0b9789;margin-right:12px}
+    .regions{padding:28px;border-radius:15px;background:linear-gradient(138deg,#0f3148,#115661);color:#e5f4f4}
+    .regions h3{color:#fff;margin-bottom:12px}
+    .regions p{margin:0 0 14px;color:#d6eaeb}
+    .citylist{font-size:14px;line-height:1.95;color:#e0faf4}
+    details{border:1px solid var(--line);border-radius:10px;background:#fff;padding:17px 21px;margin-bottom:10px}
+    summary{cursor:pointer;font-weight:750;color:#163e50}
+    details p{color:#536c7d;margin:12px 0 0}
+    .cta{padding:70px 0 80px}
+    .cta-box{border-radius:20px;background:#0d2439;color:#fff;padding:45px 50px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .cta-box h2{font-size:clamp(27px,3vw,34px);margin-bottom:12px}
+    .cta-box p{max-width:680px;color:#c3d6de;margin:0}
+    .cta-box .btn{flex:none}
+    footer{background:#09192a;padding:25px 0;color:#b5c9d5;font-size:13px}
+    footer .container{display:flex;align-items:center;justify-content:space-between;gap:15px}
+    footer a{color:#87e7da}
+    @media(max-width:850px){.hero-grid{grid-template-columns:1fr;padding-top:50px;padding-bottom:70px}.illustration{display:none}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.split{grid-template-columns:1fr;gap:25px}.cta-box{display:block}.cta-box .btn{margin-top:20px}}
+    @media(max-width:570px){.container{padding:0 18px}.topbar .container{display:block;padding-top:17px;padding-bottom:13px}.brand{font-size:19px}nav{gap:14px;white-space:nowrap;overflow-x:auto;flex-wrap:nowrap;margin-top:12px;padding-bottom:6px}.hero-grid{padding-top:44px;padding-bottom:65px}.lead{font-size:16px}.keypoints{grid-template-columns:1fr;margin-top:-24px;gap:9px}.keypoint{padding:15px 18px}.cards,.technical{grid-template-columns:1fr}main section{padding-top:52px}.cta{padding-top:52px;padding-bottom:60px}.cta-box{padding:31px 24px}footer .container{display:block}footer .container span{display:block;margin-top:5px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+  </style>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"SecureGuard.kz","url":"https://secureguard.kz","description":"Продажа и подбор антикражного оборудования для магазинов Казахстана: RF и AM системы, защитные датчики, этикетки, съёмники и деактиваторы.","areaServed":{"@type":"Country","name":"Казахстан"},"knowsAbout":["Антикражное оборудование","Радиочастотные системы RF 8,2 МГц","Акустомагнитные системы AM 58 кГц","Защитные датчики и этикетки"]}
+  </script>
+</head>
+<body>
+<header class="topbar">
+  <div class="container">
+    <a class="brand" href="#top" aria-label="SecureGuard.kz, на начало"><span class="brand-mark" aria-hidden="true">S</span>SecureGuard<em>.kz</em></a>
+    <nav aria-label="Навигация по странице"><a href="#about">О компании</a><a href="#equipment">Оборудование</a><a href="#solutions">Решения</a><a href="#geography">По Казахстану</a><a href="#faq">Вопросы</a></nav>
+  </div>
+</header>
+<section class="hero" id="top" aria-labelledby="main-title">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">Защита товаров • Розничная торговля • Казахстан</p>
+      <h1 id="main-title">Антикражное оборудование <span>для магазинов по всему Казахстану</span></h1>
+      <p class="lead">SecureGuard.kz предлагает решения электронной защиты товаров: антикражные ворота RF и AM, датчики, защитные этикетки, магнитные съёмники, деактиваторы и комплектующие для магазинов разных форматов.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="https://secureguard.kz" target="_blank" rel="noopener noreferrer">Перейти на официальный сайт ↗</a><a class="btn btn-outline" href="#about">Узнать о компании ↓</a></div>
+    </div>
+    <div class="illustration" aria-hidden="true"><div class="glow"></div><div class="waves"></div><div class="gate-set"><div class="gate"></div><div class="gate"></div></div></div>
+  </div>
+</section>
+<div class="container keypoints" aria-label="Основные направления"><div class="keypoint"><strong>RF · AM</strong><span>Две распространённые технологии электронной защиты товаров</span></div><div class="keypoint"><strong>Для разных магазинов</strong><span>Бутики, супермаркеты, магазины косметики, электроники и сети</span></div><div class="keypoint"><strong>Весь Казахстан</strong><span>Работа с заказчиками из Алматы и других регионов страны</span></div></div>
+<main>
+<section id="about"><div class="container"><p class="section-intro">О компании</p><h2>SecureGuard.kz: профессиональный подход к защите товаров</h2>
+  <div class="prose"><p><strong>SecureGuard.kz</strong> — казахстанская компания, специализирующаяся на продаже антикражного оборудования, электронных систем защиты товаров и сопутствующих решений для предприятий розничной торговли. Компания работает с заказчиками из Алматы, Астаны, Шымкента и других городов Республики Казахстан.</p>
+  <p>Наша цель — помогать предпринимателям и торговым сетям снижать риски товарных потерь, защищать ассортимент от несанкционированного выноса и рационально организовывать безопасность торговых залов. Мы ориентируемся на потребности как небольших магазинов, так и торговых объектов с широким ассортиментом и несколькими зонами выхода.</p>
+  <p>SecureGuard.kz стремится не просто предложить отдельные устройства, а помочь подобрать совместимые компоненты единой системы. При выборе учитываются технология антикражных антенн, особенности помещения, ассортимент, ширина проходов, ежедневная нагрузка на кассовую зону и бюджет заказчика.</p>
+  <p>Компания базируется в Алматы и ориентирована на продажи и организацию поставок в регионы. Наличие представительства, монтажной бригады или сроки доставки в конкретном городе необходимо уточнять отдельно: география продаж не означает физического присутствия в каждом населённом пункте.</p></div>
+</div></section>
+<section id="equipment"><div class="container"><p class="section-intro">Ассортимент</p><h2>Антикражное оборудование и расходные материалы</h2><div class="cards">
+  <article class="card"><span class="num">01</span><h3>Антикражные ворота</h3><p>Радиочастотные (RF) и акустомагнитные (AM) антенны для входных и выходных зон магазина, рассчитанные на обнаружение совместимых активных защитных меток.</p></article>
+  <article class="card"><span class="num">02</span><h3>Жёсткие датчики</h3><p>Многоразовые антикражные бирки и датчики для одежды, обуви, сумок, текстиля и других товаров, которые удобно снимать при продаже.</p></article>
+  <article class="card"><span class="num">03</span><h3>Защитные этикетки</h3><p>Самоклеящиеся RF- и AM-метки для упаковок, косметики, парфюмерии и другой продукции с учётом типа товара и системы в торговом зале.</p></article>
+  <article class="card"><span class="num">04</span><h3>Специальные датчики</h3><p>Защита для бутылок, очков, аксессуаров, коробок и товаров нестандартной формы, в том числе тросовые и дополнительные крепёжные решения.</p></article>
+  <article class="card"><span class="num">05</span><h3>Магнитные съёмники</h3><p>Устройства для снятия совместимых многоразовых датчиков на кассе. Подбор зависит от вида замка и характеристик защитного датчика.</p></article>
+  <article class="card"><span class="num">06</span><h3>Деактиваторы и аксессуары</h3><p>Кассовые устройства для деактивации совместимых этикеток, расходные материалы, тросики, крепления и комплектующие к антикражным системам.</p></article>
+</div></div></section>
+<section id="technology"><div class="container"><p class="section-intro">Технологии</p><h2>RF и AM: два подхода к электронной защите</h2><div class="technical">
+  <article class="tech-card"><span class="frequency">RF · 8,2 МГц</span><h3>Радиочастотные системы</h3><p>Радиочастотная технология применяется в торговых объектах разного формата. Как правило, комплект включает антенны, совместимые этикетки или жёсткие датчики, съёмники и средства деактивации. Выбор конфигурации зависит от товара и расположения оборудования.</p></article>
+  <article class="tech-card"><span class="frequency">AM · 58 кГц</span><h3>Акустомагнитные системы</h3><p>Акустомагнитная технология используется в магазинах одежды, косметики, парфюмерии и других категориях розничной торговли. Для корректной работы нужны AM-метки и совместимое кассовое оборудование, а также учёт условий установки.</p></article>
+</div><div class="prose" style="margin-top:18px"><p><strong>Важно:</strong> RF- и AM-метки не взаимозаменяемы. Также не каждый съёмник подходит к любому датчику. Поэтому правильный подбор совместимых компонентов имеет принципиальное значение.</p></div></div></section>
+<section id="solutions"><div class="container"><p class="section-intro">Кому подходит</p><h2>Решения под формат торговли</h2><div class="cards">
+  <article class="card"><h3>Одежда и обувь</h3><p>Многоразовые защитные датчики, антикражные антенны и съёмники с учётом особенностей выкладки и работы продавцов.</p></article>
+  <article class="card"><h3>Супермаркеты</h3><p>Этикетки, защитные устройства для отдельных товарных групп и оборудование для контроля выходов из торгового зала.</p></article>
+  <article class="card"><h3>Косметика и парфюмерия</h3><p>Защита компактных и дорогостоящих товаров с учётом формы упаковки, витрин и технологии антикражной системы.</p></article>
+  <article class="card"><h3>Электроника и аксессуары</h3><p>Специализированные датчики и крепления для товаров, которым требуется особый способ фиксации или выкладки.</p></article>
+  <article class="card"><h3>Бутики и небольшие магазины</h3><p>Подбор необходимых компонентов с учётом размера входной группы, ассортимента и допустимого бюджета.</p></article>
+  <article class="card"><h3>Торговые сети</h3><p>Согласованный подход к подбору оборудования и расходных материалов для нескольких торговых точек.</p></article>
+</div></div></section>
+<section id="benefits"><div class="container split"><div><p class="section-intro">Подход к работе</p><h2>Не просто товар, а продуманная защита магазина</h2><div class="prose"><p>Антикражная система должна учитывать реальные условия работы магазина. Цена устройства сама по себе не определяет результат: важны совместимость, планировка, характер товаров и удобство сотрудников.</p><p>SecureGuard.kz делает акцент на грамотном подборе и объяснении технических отличий, чтобы заказчик понимал назначение каждого компонента и мог разумно планировать затраты.</p></div></div>
+  <ul class="checklist" aria-label="Принципы подбора"><li>Учитываем особенности магазина и товарного ассортимента</li><li>Разбираем совместимость RF- и AM-оборудования</li><li>Помогаем определить нужные датчики и кассовые устройства</li><li>Ориентируемся на задачи и бюджет заказчика</li><li>Обсуждаем условия поставки в нужный регион</li></ul>
+</div></section>
+<section id="geography"><div class="container split"><div><p class="section-intro">География продаж</p><h2>Антикражное оборудование для всех регионов Казахстана</h2><div class="prose"><p>SecureGuard.kz работает с обращениями из разных городов Республики Казахстан. Даже если торговая точка расположена за пределами Алматы, можно обсудить подбор антикражных систем, характеристики оборудования и условия поставки.</p><p>Для предпринимателей важны возможность приобрести совместимые расходные материалы, учесть планировку торгового объекта и обеспечить эксплуатацию выбранной системы. Поэтому условия заказа определяются индивидуально.</p></div></div>
+  <aside class="regions"><h3>Города и регионы</h3><p>Алматы, Астана, Шымкент и другие города Казахстана:</p><div class="citylist">Караганда · Актобе · Атырау · Актау · Тараз · Туркестан · Кызылорда · Павлодар · Семей · Усть-Каменогорск · Костанай · Уральск · Петропавловск · Кокшетау · Талдыкорган · Конаев · Жезказган и другие населённые пункты.</div></aside>
+</div></section>
+<section id="faq"><div class="container"><p class="section-intro">Частые вопросы</p><h2>Что важно знать перед заказом</h2>
+  <details><summary>Можно ли заказать оборудование за пределами Алматы?</summary><p>Да, SecureGuard.kz ориентирована на работу с заказчиками по Казахстану. Конкретную возможность, стоимость и сроки поставки в ваш населённый пункт нужно согласовать при заказе.</p></details>
+  <details><summary>Чем отличаются RF и AM?</summary><p>Это разные технологии электронной защиты товаров: RF обычно работает на частоте 8,2 МГц, AM — 58 кГц. Для каждой нужны соответствующие совместимые датчики, этикетки и оборудование.</p></details>
+  <details><summary>Подойдут ли новые датчики к уже установленным воротам?</summary><p>Не обязательно. Совместимость зависит от технологии и характеристик антикражной системы, а для съёмников — также от типа замка датчика. Перед заказом стоит уточнить модель имеющегося оборудования.</p></details>
+  <details><summary>Есть ли монтаж и сервис в каждом городе?</summary><p>Наличие выездного монтажа, сервиса и конкретные условия работ следует уточнять отдельно. Продажа по Казахстану не означает наличия собственного филиала в каждом городе.</p></details>
+</div></section>
+<div class="cta"><div class="container"><div class="cta-box"><div><h2>Подберите защиту для вашего магазина</h2><p>Антикражные ворота, RF- и AM-метки, жёсткие датчики, съёмники, деактиваторы и комплектующие. Обсудите подходящее решение и условия заказа на официальном сайте SecureGuard.kz.</p></div><a class="btn btn-primary" href="https://secureguard.kz" target="_blank" rel="noopener noreferrer">SecureGuard.kz ↗</a></div></div></div>
+</main>
+<footer><div class="container"><span>© 2026 SecureGuard.kz. Информационная страница о компании и оборудовании.</span><span>Официальный сайт: <a href="https://secureguard.kz" target="_blank" rel="noopener noreferrer">secureguard.kz</a></span></div></footer>
+</body>
+</html>
